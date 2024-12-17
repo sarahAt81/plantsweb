@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Guide</title>
+    <link rel="stylesheet" href="caree.css">
+    <div class="navv"><p>20% OFF ON BRIDAL BOUQUETS</p></div>
+    <nav>
+        <div class="nav-container">
+        <a href="homefinal.html" class="logo-link" target="_blank">
+            <img src="logo/white.png" alt="Flora Home Logo" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="homefinal.html">Home</a></li>
+            <li><a href="caree.html">Care Guide</a></li>
+            <li><a href="shopfinal.html">Shop</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="icons">
+               <a href="cart.html">
+                <img src="photos/carttt.png" alt="Cart" class="icon">
+              <span id="cart-count" class="cart-count">0</span>
+            </a>
+          </div>
+            <div class="iconss">
+              <a href="registration.html">
+                <img src="photos/accnew.png" alt="User Account" class="icon">
+              </a>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+      <img class="menuu" src="photos/menuu.png" alt="Your Image" style="width: 16px; height: 20px; margin-left: -24px; margin-top: 40px;" onclick="myFunction()">
+      <div id="myDropdown" class="dropdown-content">
+        <div class="dropdownn">
+        <a href="shopfinal.html#fallsection">Fall Collection</a>
+      </div>
+        <div class="dropdownn">
+        <a href="shopfinal.html#onlyroses">Only Roses</a>
+      </div>
+        <div class="dropdownn">
+        <a href="shopfinal.html#mixedf">Mixed Flowers</a>
+      </div>
+        <div class="dropdownn">
+        <a href="shopfinal.html#bridal">Bridal Bouquets</a>
+      </div>
+        <div class="dropdownn">
+        <a href="shopfinal.html#boxes">Flower Boxes</a>
+      </div>
+      </div>
+    </div>
+    </nav>
+</head>
+<body>
+
+  <div class="sowcontainer">
+  <h1 class="sow">Sow the Seed of Change Now!</h1>
+</div>
+  <div class="form-container">
+      <div class="left-section">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="example@gmail.com">
+          <div id="emailError" class="error"></div>
+
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="Enter your password">
+          <div id="passwordError" class="error"></div>
+      </div>
+
+      <div class="right-section">
+          <label for="experience">Do you have experience with planting?</label>
+          <select id="experience">
+              <option value="no">No</option>
+              <option value="yes">Yes</option>
+          </select>
+
+          <label for="explanation">Explain please about your experience</label>
+          <input type="text" id="explanation" placeholder="Share your experience" disabled>
+      </div>
+  </div>
+  <div class="submit-section">
+    <form action="care.html" method="GET">
+    <input type="submit" value="Sign Up">
+    </form>
+    <div class="login-section">
+        Already have an account? <a href="logcare.html">Log in</a>
+    </div>
+</div>
+
+    <script src="caree.js"></script>
+</body>
+</html>

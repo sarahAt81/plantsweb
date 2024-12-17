@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Adelia';
+    src: url('fonts/adelia.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Muth';
+    src: url('fonts/Muthiara\ demo\ version.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Angela Cindysttar';
+    src: url('fonts/Angela\ Cindysttar.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Luminous Free';
+    src: url('fonts/Luminous\ Free.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Angela ';
+    src: url('fonts/Angela.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Luminous Free', sans-serif;
+    background-color: #f5efe5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container h2 {
+    font-family: 'Adelia', serif;
+    margin-bottom: 20px;
+    margin-left: 80px ;
+}
+.container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #502743;
+    border-radius: 4px;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #82453f;
+    color: #82453f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.container .login-link {
+    text-align: center;
+    margin-top: 50px; 
+    font-size: 12px; 
+    color: #666;
+}
+
+.container .login-link a {
+    color: #502743;
+    text-decoration: none;
+}
+
+.container .login-link a:hover {
+    text-decoration: underline; 
+}
+
+
+.container input[type="submit"] {
+    font-size: 15px;
+    font-family: 'Luminous Free', sans-serif;
+    background-color: #a05d56; 
+    color: #fff; 
+}
+
+.container input[type="submit"]:hover {
+    background-color: #814440;
+}
